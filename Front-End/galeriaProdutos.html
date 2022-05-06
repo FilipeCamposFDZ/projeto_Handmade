@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>Handmade</title>
+</head>
+
+<body>
+
+
+    <header class="header">
+        <select class="filtro-categoria elemento-header">
+            <option value="casa">Para Casa</option>
+            <option value="voce">Para Você</option>
+            <option value="casa">Para Presentear</option>
+        </select>
+        <select class="filtro-valor elemento-header">
+            <option value="Até 50">Até R$50,00</option>
+            <option value="Até 150">De R$50,00 até R$150,00</option>
+            <option value="Até3 50">De R$150,00 até R$350,00</option>
+            <option value="Até 500">De R$350,00 até R$500,00</option>
+            <option value="Acima 500">Acima de R$500,00</option>
+        </select>
+        <img class="logo-header elemento-header" src="logo_transparente.png" alt="">
+        <input class="busca elemento-header" placeholder="O que procura?" type="text">
+        <button class="carrinho elemento-header">
+            <img src="carrinho.png" alt="">
+        </button>
+
+    </header>
+
+
+    <div class="content">
+        <div class="filtro">
+
+            <p class="titulo-filtro valores">Valores</p>
+            <button class="btn-filtro active valores todos">Todos</button>
+            <button class="btn-filtro valores local">Produzido localmente</button>
+            <button class="btn-filtro valores maes">Mães empreendedoras</button>
+            <button class="btn-filtro valores plastico">Livre de Plástico</button>
+            <button class="btn-filtro valores vegano">Vegano</button>
+            <button class="btn-filtro valores negros">Empreendedores negros</button>
+            <button class="btn-filtro valores lgbt">Empoderamento LGBTQIA+</button>
+            <button class="btn-filtro valores desperdicio">ZERO desperdício na embalagem</button>
+            <button class="btn-filtro valores organicos">Materiais orgânicos</button>
+            <button class="btn-filtro valores reciclados">Materiais reciclados</button>
+
+            <p class="titulo categoria">Categoria</p>
+            <button class="btn-filtro active categoria todos">Todos</button>
+            <button class="btn-filtro categoria decor">Decoração</button>
+            <button class="btn-filtro categoria utilitarios">Utilitários</button>
+            <button class="btn-filtro categoria cheiros">Cheiros</button>
+            <button class="btn-filtro categoria artes">Artes</button>
+            <button class="btn-filtro categoria roupas">Roupas</button>
+            <button class="btn-filtro categoria acessorios">Acessórios</button>
+
+            <p class="titulo genero">Gênero</p>
+            <button class="btn-filtro active genero todos">Todos</button>
+            <button class="btn-filtro genero feminino">Feminino</button>
+            <button class="btn-filtro genero masculino">Masculino</button>
+            <button class="btn-filtro genero unissex">Unissex</button>
+
+
+        </div>
+
+        <section class="galeria">
+
+            <select class="ordenar">
+                <option value="">Mais relevante</option>
+                <option value="">Menor preço</option>
+                <option value="">Melhores avaliações</option>
+                <option value="">Mais recentes</option>
+            </select>
+
+            </button>
+
+
+
+            <div class="produtos ln1 cl1 roupas acessorios feminino local maes">
+                <a clas="link-prod-1" href="paginaProduto.html">
+                    <img class="imagem-produto" src="produto1.png">
+                    <div class="texto-produtos">
+                        <li class="nome-produtos"> Produto 1</li>
+                        <li class="preço-produtos"> R$ 100,00</li>
+                    </div>
+                    <button class="btn">Adicionar ao carrinho</button>
+                </a>
+            </div>
+
+            <div class="produtos ln1 cl2 utilitario plastico vegano">
+                <img class="imagem-produto"" src=" produto2.png">
+                <div class="texto-produtos">
+                    <li class="nome-produtos"> Produto 2</li>
+                    <li class="preço-produtos"> R$ 10,00</li>
+                </div>
+                <button class="btn">Adicionar ao carrinho</button>
+            </div>
+
+            <div class="produtos ln1 cl3 roupas unissex negros">
+                <img class="imagem-produto" src="produto3.png">
+                <div class="texto-produtos">
+                    <li class="nome-produtos"> Produto 3</li>
+                    <li class="preço-produtos"> R$ 33,00</li>
+                </div>
+                <button class="btn">Adicionar ao carrinho</button>
+            </div>
+
+            <div class="produtos ln2 cl1 decor cheiros lgbt">
+                <img class="imagem-produto" src="produto4.png">
+                <div class="texto-produtos">
+                    <li class="nome-produtos"> Produto 4</li>
+                    <li class="preço-produtos"> R$ 90,25</li>
+                </div>
+                <button class="btn">Adicionar ao carrinho</button>
+            </div>
+
+            <div class="produtos ln2 cl2 artes desperdicio organicos">
+                <img class="imagem-produto" src="produto5.png">
+                <div class="texto-produtos">
+                    <li class="nome-produtos"> Produto 5</li>
+                    <li class="preço-produtos"> R$ 55,00</li>
+                </div>
+                <button class="btn">Adicionar ao carrinho</button>
+            </div>
+
+            <div class="produtos ln2 cl3 utilitarios reciclados">
+                <img class="imagem-produto" src="produto6.png">
+                <div class="texto-produtos">
+                    <li class="nome-produtos"> Produto 6</li>
+                    <li class="preço-produtos"> R$ 600,00</li>
+                </div>
+                <button class="btn">Adicionar ao carrinho</button>
+            </div>
+
+        </section>
+
+        <div class="menu-home">
+            <aside class="menu-lateral btn-to-home">
+                <a href="index.html">Home</a>
+            </aside>
+        </div>
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

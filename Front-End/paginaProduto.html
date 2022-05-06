@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>Handmade</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <select class="filtro-categoria elemento-header">
+            <option value="casa">Para Casa</option>
+            <option value="voce">Para Você</option>
+            <option value="casa">Para Presentear</option>
+        </select>
+        <select class="filtro-valor elemento-header">
+            <option value="Até 50">Até R$50,00</option>
+            <option value="Até 150">De R$50,00 até R$150,00</option>
+            <option value="Até3 50">De R$150,00 até R$350,00</option>
+            <option value="Até 500">De R$350,00 até R$500,00</option>
+            <option value="Acima 500">Acima de R$500,00</option>
+        </select>
+        <img class="logo-header elemento-header" src="logo_transparente.png" alt="">
+        <input class="busca elemento-header" placeholder="O que procura?" type="text">
+        <button class="carrinho elemento-header">
+            <img src="carrinho.png" alt="">
+        </button>
+    </header>
+
+
+    <div class="produto-conteiner">
+        <div class="fotos-pp">
+            <img class="foto-principal" src="produto1.png">
+            <div class="carrossel-fotos">
+                <img class="carrossel foto-2" src="produto1.png">
+                <img class="carrossel foto-3" src="produto1.png">
+                <img class="carrossel foto-3" src="produto1.png">
+            </div>
+        </div>
+
+        <div clas="textos-pp">
+
+            <p class="nome-produto-pp">Produto 1</p>
+            <div class="tags">
+                <p class="tag roupa">roupas</p>
+                <p class="tag acessorios">acessorios</p>
+                <p class="tag feminino">feminino</p>
+                <p class="tag local">local</p>
+            </div>
+            <p class="preço-produto-pp">R$ 100,00</p>
+
+            <button class="btn" id="carrinho-pp">Adicionar ao carrinho</button>
+
+            <div class="produtos-similares">
+                <p>Este produto combina bem com... </p>
+                <div class="box-produtos-similares">
+                    <div class="produto1">
+                        <img class="img-produto-sug prod-sug-1" src="produto2.png">
+                        <div class="texto-prod-sug-1">
+                            <p class="nome-produto-sug-1">Produto2</p>
+                            <p class="preço-produto-sug-1">R$ 10,00</p>
+                        </div>
+                    </div>
+                    <div class="produto2">
+                        <img class="img-produto-sug prod-sug-2" src="produto3.png">
+                        <div class="texto-prod-sug-2">
+                            <p class="nome-produto-sug-2">Produto3</p>
+                            <p class="preço-produto-sug-2">R$ 33,00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+        <div class="menu-home">
+            <aside class="menu-lateral btn-to-home">
+                <a href="index.html">Home</a>
+            </aside>
+        </div>
+</body>
+
+</html>

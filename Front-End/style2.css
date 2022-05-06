@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* font-family: 'Cutive Mono', monospace;
+font-family: 'Kalam', cursive; */
+
+body {
+    background-color: lightgrey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+
+.content {
+    position: absolute;
+    padding: 20px 40px 20px;
+    display: flex;
+    z-index: 1;
+}
+
+.filtro {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    width: 250px;
+    height: auto;
+    text-align: center;
+}
+
+.titulo-filtro {
+    font-size: 24px;
+    border-radius: 20px;
+    padding: 5px;
+    color: #2D93AD;
+}
+
+.btn-filtro {
+    position: relative;
+    line-height: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    margin: 5px;
+    min-width: 80px;
+    width: auto;
+}
+
+.active,
+.btn-filtro:hover {
+    background-color: #2D93AD;
+    color: white;
+}
+
+.galeria {
+    background-color: white;
+    border-radius: 20px;
+    width: 900px;
+    position: relative;
+    left: 5%;
+    padding: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: fit-content;
+}
+
+.ordenar {
+    background-color: #7d7c84;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    margin: 5px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+:hover.ordenar {
+    zoom: 1.1;
+}
+
+.produtos {
+    width: 250px;
+    height: auto;
+    padding: 40px 10px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.produtos a {
+    text-decoration: none;
+    color: black;
+}
+
+.texto-produtos {
+    list-style: none;
+    line-height: 30px;
+    position: relative;
+    text-decoration: none;
+}
+
+.nome-produtos {
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+
+.imagem-produto {
+    width: 250px;
+    height: 250px;
+    border-radius: 100px;
+}
+
+.btn {
+    background-color: #de8f6e;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+
+}
+
+:hover.btn {
+    zoom: 1.2;
+}
+
+.btn-to-home {
+    position: fixed;
+    height: 150px;
+    right: 0;
+    top: 450px;
+}
+
+
+/* --------------------------------Página produto ------------------------------ */
+
+.produto-conteiner {
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fotos-pp {
+    align-items: center;
+    margin: 0 50px;
+}
+
+.foto-principal {
+    width: 450px;
+    height: auto;
+    margin: 10px;
+}
+
+.carrossel-fotos {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 75px;
+}
+
+.carrossel {
+    width: auto;
+    height: 55px;
+}
+
+/* .textos-pp {
+    margin-left: 30px;
+    padding-left: 30px
+} */
+
+.nome-produto-pp {
+    font-family: 'Kalam', cursive;
+    font-size: 50px;
+    position: relative;
+    top: -40px;
+}
+
+.tags {
+    position: relative;
+    top: -100px;
+    font-size: 12px;
+    max-width: 250px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.tag {
+    background-color: #2D93AD;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.preço-produto-pp {
+    position: relative;
+    top: -100px;
+    font-size: 32px;
+}
+
+#carrinho-pp {
+    position: relative;
+    top: -140px;
+    left: 200px;
+}
+
+.produtos-similares {
+    position: relative;
+    top: -130px;
+}
+
+.box-produtos-similares {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.img-produto-sug {
+    width: auto;
+    height: 100px;
+}
+
+.img-produto-sug:hover {
+    zoom: 1.2;
+}

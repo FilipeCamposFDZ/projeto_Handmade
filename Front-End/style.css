@@ -1,0 +1,234 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ---CAPA--- */
+
+#capa {
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-family: 'Kalam', cursive;
+}
+
+.conteudo-capa {
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#logo {
+    width: 600px;
+}
+
+.titulo {
+    font-size: 30px;
+    padding-top: 30px;
+    color: #7D7C84;
+    text-shadow: 0.5px 0.5px black;
+}
+
+.txt-home {
+    margin-top: 20%;
+}
+
+
+/* ---HOME--- */
+
+
+#home {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ---HEADER--- */
+
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+    position: relative;
+
+}
+
+.elemento-header {
+    max-height: 70px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    border-radius: 20px;
+}
+
+.logo-header {
+    width: 250px;
+    left: 100px;
+
+
+}
+
+.filtro-categoria {
+    width: 100px;
+    height: 25px;
+    right: 200px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.filtro-valor {
+    width: 100px;
+    height: 25px;
+    right: 320px;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.busca {
+    width: 300px;
+    height: 40px;
+    left: 450px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.carrinho {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    right: 80px;
+}
+
+.carrinho img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+/* ---MAIN--- */
+
+
+
+.main {
+    display: flex;
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    position: relative;
+
+}
+
+.banner-produto {
+    background-size: cover;
+    height: 90%;
+    width: 100%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.para-voce{
+    width: 550px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.conteiner-text-banner {
+    z-index: 1;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    color: #7d7c84;
+    font-weight: bolder;
+    background-color: rgb(236, 236, 236);
+    opacity: 0.85;
+    color: #7d7c84;
+    border-radius: 20px;
+    width: 420px;
+    height: 80px;
+    text-align: center;
+}
+
+.titulo-banner {
+    font-family: 'Kalam', cursive;
+    font-size: 33px;
+    text-shadow: 2px 1px 0 whitesmoke;
+    margin: 30px;
+}
+
+.btn-home-banner {
+    background-color: white;
+    opacity: 0.85;
+    color: #7d7c84;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    width: 80%;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn-home-banner:hover {
+    zoom: 1.1;
+}
+
+
+.menu-lateral {
+    background-color: #7D7C84;
+    height: 60%;
+    width: 4%;
+    padding: 30px 0;
+    position: absolute;
+    right: -50px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.menu-lateral a {
+    transform: rotateZ(90deg);
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.whatsapp {
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    top: 550px;
+    right: 20px;
+}
+
+.whatsapp img {
+    width: 100%;
+    height: 100%;
+    border-radius: 120px;
+    ;
+}
